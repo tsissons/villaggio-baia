@@ -1,0 +1,38 @@
+/*Tablet Screen Size */
+@media all and (min-width: 480px) and (max-width: 650px) {
+	.info-container {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap
+	}
+		.book-now-button a {
+		padding: 10px;	
+		font-size: 15px;
+	}
+
+}
+
+/*Phone Screen Size */
+
+@media all and (max-width: 480px) {
+	.info-container {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.nav-list {
+		font-size: 10px;
+		display: flex;
+		justify-content: space-around;
+		margin-left: -10px;
+	}
+	.subtitle {
+		font-size: 12px;
+	}
+
+	.book-now-button a {
+		padding: 10px;
+		font-size: 15px;
+	}
+
+}

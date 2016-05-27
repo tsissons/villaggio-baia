@@ -1,0 +1,105 @@
+/* STYLES FOR PAGE ON CALABRIA INFORMATION */
+
+.calabria-header-container {
+	display: flex;
+	flex-direction: column;
+	background: url(./images/calabria/calabria.jpg);
+	background-size: cover;
+	padding-bottom: 12%;
+	text-align: center;
+	padding-top: 25%;
+	height: 300px;
+	color: white;
+	font-family: avenir, sans-serif;
+}
+
+.map-section {
+	background: url(./images/calabria/calabria-map.png);
+	background-size: cover;
+	padding: 10%;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	font-family: avenir, sans-serif;
+	justify-content: center;
+	align-items: center
+}
+
+.map-button-link {
+	padding: 7%;
+}
+
+.map-button-link a {
+	border: solid black 2px;
+	border-radius: 9px;
+	padding: 20px;
+	transition: all 0.3s ease 0.2s;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-family: avenir;
+	display: flex;
+	justify-content: center;
+}
+
+.map-button-link a:hover {
+	background: hotpink;
+}
+
+.calabria-picture-list-container {
+	display: flex;
+}
+.calabria-picture-list {
+	display: flex;
+	list-style-type: none;
+	justify-content: space-around;	
+	font-family: avenir, sans-serif;
+	font-size: 25px;
+	flex-wrap: wrap;
+	width: 90%;
+	padding: 5%;
+	margin-left: -2%;
+}
+
+.calabria-picture-list li {
+	display: flex;
+	transition: color;
+	-webkit-transition: color;
+    -moz-transition: color;
+    -o-transition: color;
+	height: 250px;
+	width: 250px;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	margin: 2%;
+	border-radius: 50%
+}
+
+.calabria-picture-list li:nth-child(1) {
+	background: url(./images/calabria/amantea.png);
+}
+
+.calabria-picture-list li:nth-child(2) {
+	background: url(./images/calabria/amantea02.png);
+}
+
+.calabria-picture-list li:nth-child(3) {
+	background: url(./images/calabria/pizzo.png);
+}
+
+.calabria-picture-list li:nth-child(4) {
+	background: url(images/calabria/tropea02.png);
+}
+
+.calabria-picture-list li:nth-child(5) {
+	background: url(./images/calabria/tropea03.png);
+}
+
+.calabria-picture-list li:nth-child(6) {
+	background: url(./images/calabria/tropea01.png);
+}
+
+.calabria-picture-list li:hover {
+	color: hotpink;
+}

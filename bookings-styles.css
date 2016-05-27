@@ -1,0 +1,53 @@
+/* Styles FOR BOOKINGS PAGE */
+
+.bookings-header-container {
+	display: flex;
+	flex-direction: column;
+	background: url(./images/pizzo-calabro.jpg);
+	background-size: cover;
+	padding-bottom: 12%;
+	text-align: center;
+	padding-top: 25%;
+	height: 300px;
+	color: white;
+	font-family: avenir, serif;
+}
+
+.pricing-box {
+	margin: 0 auto;
+	font-family: avenir, sans-serif;
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 3%;
+}
+
+.pricing-box ul {
+	list-style-type: none;
+	font-size: 12px;
+}
+
+.contact-box {
+	margin: 0 auto;
+	font-family: avenir, sans-serif;
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 2%;
+	padding-top: 2%
+}
+
+.contact-box-list {
+	list-style-type: none;
+}
+
+.contact-box-list a {
+	text-decoration: none;
+	color: hotpink;
+}
+
+.contact-box-list a:hover {
+	color: purple;
+}

@@ -1,0 +1,53 @@
+/* STYLES FOR THE SUITES PAGE */
+
+.suites-header-container {
+	display: flex;
+	flex-direction: column;
+	background: url(./images/calabria/lamezia.jpg);
+	background-size: cover;
+	padding-bottom: 12%;
+	text-align: center;
+	padding-top: 25%;
+	height: 300px;
+	color: white;
+	font-family: avenir, serif;
+	padding-bottom: 10%;
+}
+
+.suite5-container {
+	margin: 0 auto;
+	font-family: avenir, sans-serif;
+	font-size: 12px;
+	width: 90%;
+	text-align: center;
+}
+
+.suite-picture-container {
+	display: flex;
+	font-family: avenir, sans-serif;
+	flex-wrap: wrap;
+	list-style-type: none;
+	color: white;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+.suite-picture-container li {
+	display: flex;
+	height: 200px;
+	width: 200px;
+	margin-bottom: 5px;
+	margin-left: -5%;
+}
+
+.suite22-container {
+	margin: 0 auto;
+	font-family: avenir, sans-serif;
+	font-size: 12px;
+	width: 90%;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	justify-content: space-around;
+}
