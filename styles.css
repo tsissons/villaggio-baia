@@ -53,12 +53,12 @@ header {
 	padding-top: 25%;
 	height: 300px;
 	color: white;
-	font-family: avenir, serif;
+	font-family: avenir, sans-serif;
 }
 
 #masthead {
 	font-size: 100px;
-	font-family: carringtonregular, serif;
+	font-family: carringtonregular, Pacifico, sans-serif;
 	margin-top: -10px;
 	margin-bottom: -10px;
 }
@@ -82,7 +82,7 @@ header {
 	text-decoration: none;
 	color: white;
 	font-size: 20px;
-	font-family: avenir;
+	font-family: avenir, sans-serif;
 }
 
 .book-now-button a:hover {
