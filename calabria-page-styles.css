@@ -40,7 +40,7 @@
 	text-decoration: none;
 	color: black;
 	font-size: 18px;
-	font-family: avenir;
+	font-family: avenir,sans-serif;
 	display: flex;
 	justify-content: center;
 }
